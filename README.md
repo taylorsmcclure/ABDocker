@@ -23,3 +23,4 @@ docker run -it --rm -v /path/to/auth.json:/node_modules/AwesomeBot/auth.json \
 ```
 docker start -d your_container
 ```
+7) Once you have finished your configurations via the web portal or in config.json, remember to export your configs to backup.
