@@ -21,9 +21,5 @@ docker run -it --rm -v /path/to/auth.json:/node_modules/AwesomeBot/auth.json \
 5) Verify bot joins and responds to @YourBot ping
 6) Run detatched
 ```
-docker run -d -v /path/to/auth.json:/node_modules/AwesomeBot/auth.json \
--v /path/to/config.json:/node_modules/AwesomeBot/data/config.json \
--p 0.0.0.0:80:8080 \
---name your_container \
--t taylorsmcclure/abdocker:latest
+docker start -d your_container
 ```
