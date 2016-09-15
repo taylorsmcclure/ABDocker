@@ -7,7 +7,6 @@ RUN apk update \
     && npm install npm -g \
     && addgroup -S awesomebot \
     && adduser -h /awesomebot -s /sbin/nologin -S awesomebot -g awesomebot \
-    && rm -rf /root/.aws \
     && npm init --yes \
     && npm i https://github.com/taylorsmcclure/AwesomeBot.git#docker \
     && chown -R awesomebot:awesomebot /node_modules \
