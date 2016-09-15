@@ -19,9 +19,9 @@ docker run -it --rm -v /path/to/auth.json:/node_modules/AwesomeBot/auth.json \
 --name your_container \
 -t taylorsmcclure/abdocker:latest
 ```
-5) Verify bot joins and responds to @YourBot ping
-6) Run detatched
+5. Verify bot joins and responds to @YourBot ping
+6. Run detatched
 ```
 docker start -d your_container
 ```
-7) Once you have finished your configurations via the web portal or in config.json, remember to export your configs to backup.
+7. Once you have finished your configurations via the web portal or in config.json, remember to export your configs to backup.
